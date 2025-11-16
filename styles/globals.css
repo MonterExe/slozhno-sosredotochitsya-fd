@@ -35,8 +35,11 @@ picture {
 
 button,
 a {
-  color: currentColor;
+  color: var(--theme-switch-color);
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  background: none;
+  min-width: 68px;
+  border: none;
 }
