@@ -335,6 +335,7 @@
 }
 
 .footer {
+  box-sizing: border-box;
   width: 375px;
   height: 100vh;
   min-height: 668px;
@@ -431,11 +432,15 @@
 
   .header__theme-menu-list {
     display: grid;
-    gap: 12px;
+    gap: 10px;
   }
 
   .header__theme-menu-button_type_dark {
     position: relative;
+  }
+
+  .header__theme-menu-button_type_light {
+    padding-top: 6px;
   }
 
   .rec_decoration {
@@ -528,7 +533,6 @@
     align-items: flex-end;
     margin-top: 60px;
     margin-left: 31px;
-    padding-right: 12px;
     gap: 20px;
 }
 
@@ -804,6 +808,10 @@
 
   .header__theme-menu-button_active {
     padding-top: 5px;
+  }
+
+  .header__theme-menu-button_type_light {
+    padding-top: 6px;
   }
 
   .rec_decoration {
