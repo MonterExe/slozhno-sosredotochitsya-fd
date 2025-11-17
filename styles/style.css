@@ -8,8 +8,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   width: 375px;
-  height: 100vh;
-  min-height: 668px;
+  height: 668px;
 }
 
 .header {
@@ -390,8 +389,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 768px;
-    height: 100vh;
-    min-height: 1024px;
+    height: 1024px;
   }
 
   .header {
@@ -750,8 +748,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 1024px;
-    height: 100vh;
-    min-height: 768px;
+    height: 768px;
   }
 
   .header {
