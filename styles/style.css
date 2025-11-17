@@ -21,10 +21,6 @@
   margin-bottom: 40px;
 }
 
-.button {
-
-}
-
 .corner_decoration {
   position: absolute;
   width: 355px;
@@ -73,11 +69,12 @@
 
 .header__theme-menu-list {
   display: grid;
-  gap: 12px;
+  gap: 10px;
 }
 
 .header__theme-menu-item {
   padding-right: 10px;
+  height: 29px;
 }
 
 .header__theme-menu-button_type_auto {
@@ -209,14 +206,6 @@
   gap: 20px;
 }
 
-.section_questions_card {
-
-}
-
-.card {
-
-}
-
 .card_heading {
   width: 355px;
   height: 23px;
@@ -279,10 +268,6 @@
   gap: 20px;
 }
 
-.section_answers_card {
-
-}
-
 .section_tips {
   display: flex;
   gap: 20px;
@@ -306,10 +291,6 @@
   flex-direction: column;
   margin-left: 10px;
   gap: 20px;
-}
-
-.section_tips_card {
-
 }
 
 .card_tips_heading {
@@ -344,34 +325,11 @@
   padding-top: 12px;
   gap: 10.4px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .section_images_card_heading {
   margin-left: 10px;
-}
-
-.image {
-  width: 355px;
-}
-
-.sunset_image {
-
-}
-
-.ice_cream_image {
-
-}
-
-.tape_image {
-
-}
-
-.books_image {
-
-}
-
-.street_image {
-
 }
 
 .footer {
@@ -474,24 +432,8 @@
     gap: 12px;
   }
 
-  .header__theme-menu-item {
-
-  }
-
-  .header__theme-menu-button_type_auto {
-
-  }
-
-  .header__theme-menu-button_type_light {
-
-  }
-
   .header__theme-menu-button_type_dark {
     position: relative;
-  }
-
-  .header__theme-menu-button_active {
-
   }
 
   .rec_decoration {
@@ -603,14 +545,6 @@
     color: var(--title-text-color);
 }
 
-  .section_questions_card_heading {
-
-  }
-
-  .section_questions_card_text {
-
-  }
-
   .card_text {
     margin-top: 10px;
     width: 466px;
@@ -683,10 +617,6 @@
     margin-right: 24px;
   }
 
-  .section_tips_card_text {
-
-  }
-
   .card_tips_heading {
     width: 472px;
     margin-bottom: 21px;
@@ -721,6 +651,7 @@
     width: 100%;
     padding-top: 20px;
     margin-left: 0;
+    margin-right: 0;
     gap: 20px;
   }
 
@@ -864,14 +795,6 @@
     padding-right: 0;
   }
 
-  .header__theme-menu-button_type_auto {
-
-  }
-
-  .header__theme-menu-button_type_light {
-
-  }
-
   .header__theme-menu-button_type_dark {
     position: relative;
   }
@@ -993,10 +916,6 @@
     width: 649px;
   }
 
-  .section_questions_card_text {
-
-  }
-
   .card_text {
     margin-top: 10px;
     width: 656px;
@@ -1069,10 +988,6 @@
     margin-right: 24px;
   }
 
-  .section_tips_card_text {
-
-  }
-
   .card_tips_heading {
     width: 649px;
     margin-bottom: 21px;
@@ -1107,6 +1022,7 @@
     width: 100%;
     padding-top: 20px;
     margin-left: 0;
+    margin-right: 0;
     gap: 20px;
   }
 
