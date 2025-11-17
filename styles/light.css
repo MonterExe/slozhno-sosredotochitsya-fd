@@ -14,3 +14,19 @@
   --card-text-color: #353430;
   --text-shadow: #FF8DCB;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: #FFF1F7;
+  --rectangle-bg-color: #FF8DCB;
+  --corner-color: #353430;
+  --title-bg-color: #FF8DCB;
+  --title-text-color: #353430;
+  --no-focus-color: #FFC2E6;
+  --theme-switch-color: #353430;
+  --heading-color: #353430;
+  --card-text-color: #353430;
+  --text-shadow: #FF8DCB;
+  }
+}

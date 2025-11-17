@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-color: var(--page-bg-color);
   background-image: var(--bg-image);
   background-position: center;
@@ -97,14 +96,18 @@
 }
 
 .header__theme-menu-button:hover {
-  content: "";
   border: 1px solid var(--theme-switch-color);
 }
 
-.header__theme-menu-button:focus {
-  border: 1px solid var(--theme-switch-color);
-  content: "";
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--theme-switch-color); 
+  outline: none;
+  opacity: 40%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
+
 
 .rec_decoration {
   position: absolute;
@@ -796,11 +799,12 @@
   }
 
   .header__theme-menu-button_type_dark {
+    padding-top: 7px;
     position: relative;
   }
 
   .header__theme-menu-button_active {
-    padding-top: 4px;
+    padding-top: 5px;
   }
 
   .rec_decoration {
@@ -898,7 +902,7 @@
 }
 
   .section_questions_card {
-    padding-right: 20px;
+    padding-right: 0px;
   }
 
   .card_heading {
