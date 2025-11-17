@@ -1062,7 +1062,8 @@
 
   .footer {
     width: 1024px;
-    min-height: 790px;
+    min-height: 768px;
+    padding-top: 20px;
   }
 
   .footer_focus {
