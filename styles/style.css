@@ -100,7 +100,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--theme-switch-color); 
+  border-bottom: 1px solid var(--theme-switch-color);
   outline: none;
   opacity: 40%;
   border-left: none;
@@ -127,7 +127,7 @@
   content: '•';
   width: 24px;
   min-height: 20px;
-  background-color: red;  
+  background-color: red;
   border-radius: 100%;
   box-shadow: 0 0 4px 4px #FF0070;
 }
@@ -457,7 +457,7 @@
     content: '•';
     width: 24px;
     min-height: 20px;
-    background-color: red;  
+    background-color: red;
     border-radius: 100%;
     box-shadow: 0 0 4px 4px #FF0070;
 }
@@ -825,7 +825,7 @@
     content: '•';
     width: 24px;
     min-height: 20px;
-    background-color: red;  
+    background-color: red;
     border-radius: 100%;
     box-shadow: 0 0 4px 4px #FF0070;
 }
