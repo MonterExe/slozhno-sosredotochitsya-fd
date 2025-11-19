@@ -3,10 +3,8 @@
   --page-bg-color: #FFF1F7;
   --rectangle-bg-color: #FF8DCB;
   --corner-color: #353430;
-  --font-family: IBM Plex Mono, sans-serif;
   --title-bg-color: #FF8DCB;
   --title-text-color: #353430;
-  --font-size: 18px;
   --no-focus-color: #FFC2E6;
   --theme-switch-color: #353430;
   --heading-color: #353430;
@@ -29,4 +27,8 @@
   --card-text-color: #353430;
   --text-shadow: #FF8DCB;
   }
+
+  .theme-auto .rec_decoration {
+        display: none;
+    }
 }
