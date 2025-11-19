@@ -119,13 +119,13 @@
 
 .rec_decoration::after {
   display: inline-block;
-  transform: scale(0.5);
+  transform: scale(0.4);
   content: '•';
   width: 24px;
   min-height: 20px;
   background-color: red;
   border-radius: 100%;
-  box-shadow: 0 0 4px 4px #FF0070;
+  box-shadow: 0 0 4px 8px #FF0070;
 }
 
 .no_focus {
@@ -287,7 +287,7 @@
 }
 
 .footer {
-  display: relative;
+  position: relative;
   box-sizing: border-box;
   max-width: 375px;
   height: 100vh;
@@ -317,7 +317,7 @@
   border-left-color: transparent;
   border-style: solid;
   right: 2.3%;
-  bottom: -819%;
+  bottom: 94%;
 }
 
 .footer_decorated_zone::before {
@@ -329,7 +329,7 @@
   border-top: 24px;
   border-top-color: transparent;
   border-style: solid;
-  bottom: -912%;
+  bottom: 1%;
   right: 91%;
 }
 
@@ -397,13 +397,13 @@
 
   .rec_decoration::after {
     display: inline-block;
-    transform: scale(0.5);
+    transform: scale(0.4);
     content: '•';
     width: 24px;
     min-height: 20px;
     background-color: red;
     border-radius: 100%;
-    box-shadow: 0 0 4px 4px #FF0070;
+    box-shadow: 0 0 4px 8px #FF0070;
 }
 
   .no_focus {
@@ -610,7 +610,7 @@
 
   .footer_decorated_zone::before {
     left: 2.5%;
-    bottom: -469.4%;
+    bottom: -0.4%;
     content: "";
     position: absolute;
     border-color: var(--corner-color);
@@ -623,8 +623,8 @@
   }
 
   .footer_decorated_zone::after {
-    right: 2.5%;
-    top: 473%;
+    right: 2%;
+    top: 4%;
     position: absolute;
     content: "";
     border-color: var(--corner-color);
@@ -633,7 +633,6 @@
     border-left: 32px;
     border-left-color: transparent;
     border-style: solid;
-    bottom: 0;
   }
 
 }
@@ -725,13 +724,13 @@
 
   .rec_decoration::after {
     display: inline-block;
-    transform: scale(0.5);
+    transform: scale(0.4);
     content: '•';
     width: 24px;
     min-height: 20px;
     background-color: red;
     border-radius: 100%;
-    box-shadow: 0 0 4px 4px #FF0070;
+    box-shadow: 0 0 4px 8px #FF0070;
 }
 
   .no_focus {
@@ -937,7 +936,7 @@
 
   .footer_decorated_zone::before {
     left: 2%;
-    bottom: -549.4%;
+    bottom: -0.4%;
     content: "";
     position: absolute;
     border-color: var(--corner-color);
@@ -951,7 +950,7 @@
 
   .footer_decorated_zone::after {
     right: 2%;
-    top: 554.5%;
+    top: 5.5%;
     position: absolute;
     content: "";
     border-color: var(--corner-color);
