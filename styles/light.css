@@ -11,6 +11,11 @@
   --subheading-color: #FF0070;
   --card-text-color: #353430;
   --text-shadow: #FF8DCB;
+  --theme-switch-hover-color: rgb(50 49 45 / 0.4);
+}
+
+.theme-light .rec_decoration {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
