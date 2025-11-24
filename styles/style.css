@@ -44,8 +44,8 @@
   border-top: 24px;
   border-top-color: transparent;
   border-style: solid;
-  bottom: 8px;
-  left: 9px;
+  bottom: 10px;
+  left: 10px;
 }
 
 .header__theme-menu {
@@ -300,31 +300,33 @@
   }
 
   .header {
+    position: relative;
     grid-template-rows: auto;
-    min-height: 768px;
+    min-height: 1024px;
+    padding: 20px;
+    padding-left: 0;
     margin-bottom: 0;
   }
 
   .decorated-zone::after {
-    right: 19.7px;
-    top: 18px;
+    right: 20px;
+    top: 20px;
   }
 
   .decorated-zone::before {
-    left: 2.5%;
-    right: 93%;
-    bottom: 1.6%;
+    left: 20px;
+    bottom: 20px;
 }
   
   .header__theme-menu {
     grid-row-start: 2;
     align-self: auto;
-    margin-right: 18px;
-    padding-top: 65px;
+    margin-right: 0px;
+    padding-top: 48px;
   }
 
   .rec_decoration {
-    top: 19px;
+    top: 0px;
     right: 24px;
   }
 
@@ -333,7 +335,7 @@
     grid-column-start: 1;
     grid-column-end: 2;
     align-self: center;
-    padding-bottom: 44px;
+    padding-bottom: 46px;
     max-width: 596px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     padding-left: 0;
@@ -345,8 +347,8 @@
     max-width: 364px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
     justify-self: end;
-    margin-right: 20px;
-    margin-bottom: 125px;
+    margin-right: 0px;
+    margin-bottom: 105px;
   }
 
   .section_questions_block {
@@ -448,6 +450,7 @@
   .footer {
     width: 100%;
     min-height: 1024px;
+    padding: 20px;
   }
 
   .footer_focus {
@@ -456,11 +459,12 @@
   }
 
   .footer.decorated-zone::after {
-    top: 41px;
+
 }
 
   .footer.decorated-zone::before {
-    bottom: 0px;
+    bottom: 20px;
+    left: 20px;
 }
 
 }
