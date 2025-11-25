@@ -458,10 +458,6 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   }
 
-  .footer.decorated-zone::after {
-
-}
-
   .footer.decorated-zone::before {
     bottom: 20px;
     left: 20px;
@@ -543,10 +539,6 @@
 
   .header_title_text {
     max-width: 491px;
-  }
-
-  .rec_decoration {
-
   }
 
   .section_questions_block {
